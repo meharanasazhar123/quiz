@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script  type="text/javascript">
+
+
+
+        
+        
+        var Web=70;
+        var Phy=77;;
+        var programing=80;
+        var urdu=70;
+        var Math=79;
+        var linebreak="<br/>";
+
+document.write("Total Marks is=500")
+document.write(linebreak); 
+        document.write("Tolal obtain Marks of all subjects is=")
+        result=Web+Phy+programing+urdu+Math;
+
+        document.write(result);
+
+        par=(result/500)*100;
+        document.write(linebreak); 
+        document.write("Overall percentage is=")
+        document.write(par);
+
+        if (par <= 100 && par >= 90) {
+    grades = "A";
+    document.write(linebreak); 
+    document.write("Your grade is 'A' and your gpa is '4.0'");
+  } else if (par <= 80 && par >= 70) {
+    grades = "B";
+    document.write(linebreak); 
+document.write("Your grade is 'B' and your gpa is '3.0'");
+  } else if (par <= 59 && par >= 40) {
+    grades = "C";
+    document.write(linebreak); 
+    document.write("Your grade is 'C' and your gpa is '2.5'");
+  } else {
+    grades = "F";
+    document.write("Sorry you are fail")
+  }
+
+
+
+
+
+
+</script>
+</body>
+</html>
