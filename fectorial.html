@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   
+    <script>
+        const anas =parseInt(prompt("Enter the number"))
+        if(anas< 0){
+            document.write("Fail not Valid ")
+        }
+        else if(anas===0){
+            document.write(`Your fectorial is ${anas}  `)
+        }
+        else{
+let fact1;
+fact1=1;
+for(i=1;i<=anas;i++){
+    fact1*=i;
+    
+}
+document.write( `Your fectorial ${anas} is ${fact1}`);
+        }
+    </script>
+
+</body>
+</html>
