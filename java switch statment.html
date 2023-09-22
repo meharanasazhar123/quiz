@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter Your Grade" id="gpa">
+    <button onclick="grade()">
+        click
+    </button>
+
+    <script type = "text/javascript">
+        
+           function grade(){
+           switch (document.getElementById('gpa').value)
+           {
+              case 'A': document.write("Your CGPA is 4.0<br />");
+              break;
+           
+              case 'B': document.write("Your CGPA is 3.0<br />");
+              break;
+           
+              case 'C': document.write("Your CGPA is 2.5<br />");
+              break;
+           
+              case 'D': document.write("Your CGPA is 2.0<br />");
+              break;
+           
+              case 'E': document.write("Your CGPA is 1.5<br />");
+              break;
+           
+              default:  document.write("Unknown grade<br />")
+           }
+        
+           document.write(" Thank You");
+        }
+        </script>
+        </body>
+        </html>
+</body>
+</html>
